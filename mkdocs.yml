@@ -6,7 +6,7 @@ theme:
   logo: img/favicon.png
 
 nav: 
-- 主页: index.md
+- Start: index.md
 - 专业必修课:
   - 美国文学史: 专业必修课/American Literature.md
 - 专业选修课:
