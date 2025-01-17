@@ -1,0 +1,1372 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49">
+    
+    
+      
+        <title>Lesson 1 - ZJU SIS resource sharing</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.6f8fc17f.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lesson-1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="ZJU SIS resource sharing" class="md-header__button md-logo" aria-label="ZJU SIS resource sharing" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ZJU SIS resource sharing
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Lesson 1
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="ZJU SIS resource sharing" class="md-nav__button md-logo" aria-label="ZJU SIS resource sharing" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    ZJU SIS resource sharing
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Welcome to MkDocs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Lesson 1
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Lesson 1
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#english-stylistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      English Stylistics
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#styles-as-personal-idiosyncrasy" class="md-nav__link">
+    <span class="md-ellipsis">
+      styles - as personal idiosyncrasy
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#also-styles-as-rhetoric-and-eloquence" class="md-nav__link">
+    <span class="md-ellipsis">
+      also styles - as rhetoric and eloquence
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#also-styles-as-technique-of-exposition" class="md-nav__link">
+    <span class="md-ellipsis">
+      also styles - as technique of exposition 写作技巧
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#style-focus-on-texts" class="md-nav__link">
+    <span class="md-ellipsis">
+      style - focus on texts
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#english-stylistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      English Stylistics
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#styles-as-personal-idiosyncrasy" class="md-nav__link">
+    <span class="md-ellipsis">
+      styles - as personal idiosyncrasy
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#also-styles-as-rhetoric-and-eloquence" class="md-nav__link">
+    <span class="md-ellipsis">
+      also styles - as rhetoric and eloquence
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#also-styles-as-technique-of-exposition" class="md-nav__link">
+    <span class="md-ellipsis">
+      also styles - as technique of exposition 写作技巧
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#style-focus-on-texts" class="md-nav__link">
+    <span class="md-ellipsis">
+      style - focus on texts
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="lesson-1">Lesson 1</h1>
+<blockquote>
+<p>Scheme</p>
+<ul>
+<li>understandings of Style</li>
+<li>In-class reading</li>
+<li>The study of style</li>
+<li>course info</li>
+</ul>
+</blockquote>
+<h4 id="english-stylistics">English Stylistics</h4>
+<ul>
+<li>
+<p>A branch of linguistic studies (not literacy)</p>
+</li>
+<li>
+<p>but typically with a literary concern (处于语言学和文学交界的位置)</p>
+</li>
+<li>
+<p>reading the text, analysis the features, and discussion of the effects 表达效果</p>
+</li>
+<li>
+<p>a wide range of applications - a tool kit rather than a blueprint to follow</p>
+</li>
+</ul>
+<blockquote>
+<p>all the questions presented in class have been solved. we need to think about ours.</p>
+</blockquote>
+<h4 id="styles-as-personal-idiosyncrasy">styles - as personal idiosyncrasy</h4>
+<ul>
+<li>Woolf's style:</li>
+</ul>
+<blockquote>
+<p><em>to the lighthouse</em>
+<em>a room of her own</em></p>
+</blockquote>
+<ul>
+<li>
+<p>海明威's style</p>
+</li>
+<li>
+<p>苏轼's style: freedom? natural? 不明晰</p>
+</li>
+</ul>
+<h4 id="also-styles-as-rhetoric-and-eloquence">also styles - as rhetoric and eloquence</h4>
+<p>academic style - more rigid, followed by a certain group of people, like a social convention</p>
+<ul>
+<li>research paper / journal article</li>
+<li>...</li>
+</ul>
+<h4 id="also-styles-as-technique-of-exposition">also styles - as technique of exposition 写作技巧</h4>
+<h3 id="style-focus-on-texts">style - focus on texts</h3>
+<ul>
+<li>as rhetoric and eloquence</li>
+<li>as technique of exposition</li>
+<li>as personal idiosyncrasy</li>
+</ul>
+<p>What are we talking about when we talk about style?</p>
+<ul>
+<li>reading experience</li>
+<li>first impression</li>
+<li>analysis and insights</li>
+<li>final evaluation</li>
+<li>back to 1</li>
+</ul>
+<p><strong><em>form</em></strong> in linguistics</p>
+<ul>
+<li>构词法</li>
+<li>syntax</li>
+<li>discourse patterns</li>
+</ul>
+<blockquote>
+<p>text 1 and 2</p>
+</blockquote>
+<h1 id="lesson-2">Lesson 2</h1>
+<blockquote>
+<p>scheme</p>
+<ul>
+<li>why different styles? (motivation)</li>
+<li>how to perceive and analyze the style</li>
+<li>stylistic features (analytical framework)</li>
+</ul>
+</blockquote>
+<h3 id="examples">examples:</h3>
+<p>topic and genre determine styles - <strong>real estate advertisements</strong> have many abbr.s</p>
+<p>现实性的限制 - <strong>recipes</strong> have many imperative sentences，简化的表达 give direct instructions</p>
+<p>交流方式带来的影响 - <strong>instant message/ text message</strong> 语言符号的换用，lack of punctuations, fragment, SOOOOO, colloquial 模拟面对面对话</p>
+<h3 id="choosing-different-styles">Choosing Different Styles</h3>
+<ul>
+<li>content: different topics or themes</li>
+<li>form: different ways of presentation</li>
+<li>users: identities and relationships</li>
+<li>function: purposes of communication</li>
+</ul>
+<h3 id="the-significance-of-stylistics">The significance of stylistics</h3>
+<ul>
+<li>to understand the texts</li>
+<li>to understand the language</li>
+<li>to understand the ...?</li>
+</ul>
+<h3 id="capturing-styles">Capturing styles</h3>
+<ul>
+<li>stylistic features/ style markers</li>
+</ul>
+<blockquote>
+<p>"We recognize a style only when certain choices of language features <strong><em>recur</em></strong> or <strong><em>prevail</em></strong> in a text." (Qian, P19)</p>
+<p><strong><em>frequency</em></strong></p>
+<ul>
+<li>recur: absolutely多</li>
+<li>prevail: 相对多</li>
+</ul>
+</blockquote>
+<h3 id="levels-of-language-">levels of language - 从哪里选择语言特征</h3>
+<ul>
+<li>phonetics, phonology - all sounds, system sounds</li>
+<li>morphology - forms and words    morf: form</li>
+<li>syntax - clauses and sentences</li>
+<li>semantics - meanings of various kinds</li>
+<li>pragmatics - language use</li>
+</ul>
+<h3 id="similarly-stylistic-features">similarly, stylistic features</h3>
+<ul>
+<li>
+<p>phonological features: sounds and sound patterns</p>
+</li>
+<li>
+<p>lexical features: word-formation patterns - 词汇层面  情态动词modal verbs(shall)...  动词...  action verbs,</p>
+</li>
+<li>
+<p>semantic features: contrast...</p>
+</li>
+<li>
+<p>syntactic features: 主动句</p>
+</li>
+<li>
+<p>other features: discourse, visual, etc</p>
+</li>
+<li>语篇层面...    first person perspective</li>
+</ul>
+<blockquote>
+<p>Text 4</p>
+<ul>
+<li>Lexical – “I”, “but”, modal verb (can), action verbs (sprint, scramble, grab, reach)</li>
+<li>Syntactic – short, active sentences, sometimes broken or incomplete</li>
+<li>Semantic – actions, planning, weighing of different sides </li>
+<li>Discourse: colloquial expression, monologue</li>
+</ul>
+<p>Text 5</p>
+<ul>
+<li>Phonological – one or two syllables/word, alliteration (wear-win, watcher on the walls)</li>
+<li>Lexical – short, simple and powerful words; concrete words, the use of “shall” as obligation and inevitability</li>
+<li>Syntactic – short, assertive sentences of identical structures Rhetorical devices – metaphor , parallelism</li>
+<li>Discourse – prepared speech for chorus, highly ritualized (vow)</li>
+</ul>
+<p>colloquial 口语的 </p>
+<p>archaic 古体的</p>
+</blockquote>
+<h1 id="lesson-3">Lesson 3</h1>
+<h3 id="summary-key-issues-in-stylistics">Summary: key issues in stylistics</h3>
+<ul>
+<li>style - content, form, users &amp; purposes</li>
+<li>
+<p>Stylistics - Texts, languages and commuication</p>
+</li>
+<li>
+<p>Stylistic features - Impression + Description + Interpretation</p>
+</li>
+</ul>
+<h3 id="lexical-features-3-weeks">Lexical features (3 weeks)</h3>
+<ul>
+<li>word formation</li>
+<li>word types 词性</li>
+<li>English words of different origins/Etymology</li>
+<li>register(语域) and lexical choices</li>
+<li>*Rhetorical devices - cover more than just lexical features</li>
+</ul>
+<h3 id="word-formation-processes">word-formation processes</h3>
+<ul>
+<li>Derivation or Affixation 派生或加词缀</li>
+<li>Compounding: hide and seek, somehow, hard-working</li>
+<li>Blending and Clipping: brunch, vlog, smog, frenemy, sit-com / math, lab, exam, prof, pre, dorm ==WHY! these are all about school==</li>
+<li>blending is useful in making new names, and it is more interesting than compounding.</li>
+<li>why do students prefer to clip their words so often?</li>
+<li>Abbrevi==ation== and acro==nym==s 缩写==法==和缩略==词== - 大多是人们在用的时候自然形成的</li>
+<li>Abbreviation: CBA DNA WTO UN USA - 只能发字母音</li>
+<li>Acronyms: UNESCO BRICS AIDS ASAP NASA - 可以被读出来，具有词汇化特征，可以派生出更多的词</li>
+<li>Neologism (coinage) 创新词（生造词）- 经常出现在business领域（品牌名字）和science领域</li>
+<li>Borrowing and (calque = loan translation 借译)  </li>
+<li>internet 中 inter是借的，net是译的</li>
+<li>ice-cream 中 ice是译的，cream是借的</li>
+<li>hotdog 是译的</li>
+<li>Bluetooth </li>
+<li>violin一开始是借的，梵峨嶙，后来造了一个小提琴</li>
+<li>add oil  - a calque from Chinese to English</li>
+<li>打卡 - punch the card (calque)</li>
+<li>接龙 - pick up the dragon (calque)</li>
+</ul>
+<h1 id="lesson-4">Lesson 4</h1>
+<h3 id="word-types">word types</h3>
+<ul>
+<li>content words - 开放的集合</li>
+<li>nouns</li>
+<li>verbs</li>
+<li>adjectives</li>
+<li>adverbs</li>
+<li>function words - 封闭的集合</li>
+<li>auxiliaries</li>
+<li>prepositions</li>
+<li>articles</li>
+<li>pronouns</li>
+<li>conjunctions</li>
+</ul>
+<h4 id="frequency-bnc">frequency (BNC)</h4>
+<p>N &gt; V &gt; prep &gt; ... &gt; adj = pronoun = articles &gt; adv</p>
+<p>这样当一段语言中明显一个词性的词含量超标的时候，就会敏感的感知到</p>
+<blockquote>
+<p>handout 7. 8</p>
+</blockquote>
+<p><img alt="image-20241211010147600" src="C:\Users\1\Desktop\image-20241211010147600.png" /></p>
+<h3 id="use-of-nouns">use of nouns</h3>
+<blockquote>
+<p>handout 9</p>
+</blockquote>
+<p>两种不同的名词：</p>
+<ul>
+<li>具体名词（日耳曼词汇，力量感）</li>
+<li>抽象名词（拉丁词汇，抽象模糊）</li>
+</ul>
+<h4 id="nominalization">nominalization 名词化</h4>
+<p>短动词名词化...</p>
+<p>abstract and academic</p>
+<h3 id="verbs">verbs</h3>
+<ul>
+<li>notional auxiliary modal verbs</li>
+<li>action verbs (physical vs. mental)</li>
+<li>active voice vs. passive voices of verbs</li>
+<li>Transitive vs intransitive verbs 及物动词与不及物动词  - 推动情节与不推动情节</li>
+<li>Phrasal verbs 动词短语 - 口语化（带日耳曼词汇的短语）</li>
+</ul>
+<blockquote>
+<p>handout 10 &amp; 11</p>
+</blockquote>
+<h1 id="lesson-5">Lesson 5</h1>
+<h3 id="etymology">Etymology</h3>
+<blockquote>
+<p>英语语言史这门课会讲解</p>
+</blockquote>
+<p><img alt="image-20241211010922524" src="C:\Users\1\Desktop\etymology.png" /></p>
+<p>暖色调的支流：日耳曼语系 Germanic</p>
+<ul>
+<li>日常用语</li>
+</ul>
+<p>冷色调的支流：拉丁语系 Latinate</p>
+<ul>
+<li>Normans 法国贵族 - 注入食物，例如pork</li>
+<li>Romans 罗马人 - 道路修筑、建筑之类</li>
+<li>Renaissance 意大利人 - 音乐、文艺</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Germanic</th>
+<th>Latinate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>bodily</td>
+<td>corporal</td>
+</tr>
+</tbody>
+</table>
+<p>Germanic words (Anglo-Saxon)</p>
+<ul>
+<li>short in syllables (2-3) - 每个词派生性不强大</li>
+<li>basic vocabulary</li>
+<li>Concrete, Plain, forceful, vivid</li>
+</ul>
+<p>Latinate words</p>
+<ul>
+<li>multisyllabic, abstract, derivational</li>
+<li>fancy, elegant, urban, educated - 用于政治、学术、文艺领域</li>
+<li>Or pretentious</li>
+</ul>
+<blockquote>
+<p>note: clipping of the Latinate words</p>
+<p>因为它们和日常生活息息相关，需要变短</p>
+<ul>
+<li>Why campus vocabulary usually come with clipped words? 词源和构词法的角度一起看</li>
+<li>lazy students?</li>
+<li>Students have to deal with Educations words, which are mostly brought in English in Renaissance times</li>
+<li>so, in order to make them easy to use - related with lives</li>
+</ul>
+<p>handout 13-A 13-B</p>
+</blockquote>
+<p>get rid of  -&gt; eliminate</p>
+<p>look into -&gt; investigate</p>
+<h1 id="lesson-6">Lesson 6</h1>
+<h2 id="rhetorical-devices">Rhetorical devices</h2>
+<ul>
+<li>
+<p>A linguistic tool that employs a particular type of ==sentence structure==, ==sound==, or ==pattern of meaning== in order to evoke a particular reaction from an audience</p>
+</li>
+<li>
+<p>Effect: dramatic persuasive ……</p>
+</li>
+</ul>
+<h3 id="rhetorical-devices-there-are-more">Rhetorical devices (there are more)</h3>
+<ul>
+<li>simile </li>
+<li>metaphor</li>
+<li>met==o==nymy</li>
+<li>syn==e==cdoche</li>
+<li>hyp==er==bole</li>
+<li>lit==o==tes</li>
+<li>p==a==rallelism</li>
+<li>ant==i==thesis</li>
+<li>
+<p>oxym==o==ron</p>
+</li>
+<li>
+<p>alliteration</p>
+</li>
+<li>
+<p>onomatopoeia</p>
+</li>
+<li>
+<p>anticlimax - 语篇层面的反渐层法</p>
+</li>
+</ul>
+<blockquote>
+<p>from 1902 to 1903, with the help of two guides...</p>
+</blockquote>
+<h3 id="simile-and-metaphor">Simile and metaphor</h3>
+<h4 id="meaning-through-comparison">meaning through comparison</h4>
+<ul>
+<li>overt comparison - simile - 明显的表现</li>
+<li>covert comparison - metaphor - the way we consider this world</li>
+</ul>
+<h3 id="metonymy-and-synecdoche">metonymy and synecdoche</h3>
+<h4 id="meaning-through-extension">Meaning through extension</h4>
+<p>两者有重叠之处</p>
+<ul>
+<li>metonymy - sth. closely related 相关性的延伸 - opaque </li>
+</ul>
+<blockquote>
+<p>约定俗成的一些东西，例如用心表示爱，用嘴唇表示律师...</p>
+</blockquote>
+<ul>
+<li>
+<p>The case was defended by eloquent <em>lips</em>. - lips往往指律师，而不是很轻率的代指一个人</p>
+</li>
+<li>
+<p><em>the oval office</em> is busy at work - language convention</p>
+</li>
+<li>let me give you a <em>hand</em> - language convention 手经常被理解成一种友善的姿态</li>
+<li>the pen is mightier than the sword - have to rely on the content to understand the meaning</li>
+<li>
+<p>"Friends, Romans, Countryman, lend me your ears!" - ears for attention</p>
+</li>
+<li>
+<p>Synecdoche - a part and the whole 部分和整体的延伸 - transparent, obvious, direct</p>
+</li>
+</ul>
+<blockquote>
+<p>整体的一部分</p>
+</blockquote>
+<ul>
+<li>Many <em>hands</em> make light work - 如果改成Many heads make light work也可以，不太依赖convention，与原来意思密切相关</li>
+<li>here come two black suits</li>
+<li>England beats Sweden in the last football match</li>
+</ul>
+<p><strong>Synecdoche is more transparent, easy to understand even without background knowledge</strong></p>
+<h3 id="hyperbole-vs-litotes">Hyperbole vs. Litotes</h3>
+<ul>
+<li>hyperbole - Overstatement, exaggeration is the effect of hyperbole</li>
+</ul>
+<blockquote>
+<p>爱情诗</p>
+</blockquote>
+<ul>
+<li>
+<p>litotes - with a subtle emphasis or irony - 用3分表达10分，而不是hyperbole的反面</p>
+</li>
+<li>
+<p>We're not unfamiliar with the work of Mark Twain - 特别熟悉马克吐温的作品</p>
+</li>
+<li>I'm not a little upset - very upset</li>
+<li>She is not a bad singer</li>
+</ul>
+<h3 id="oxymoron">Oxymoron</h3>
+<p>Contradiction in logic: a combination of contradictory incongruous words</p>
+<p>用一个词去修饰它的反义词</p>
+<ul>
+<li>cruel kindness</li>
+<li>a victorious defeat</li>
+<li>
+<p>writing is busy idleness</p>
+</li>
+<li>
+<p>open secret</p>
+</li>
+<li>sweet sorrow</li>
+<li>a wise fool</li>
+<li>be alone together</li>
+<li>sweet biterness</li>
+<li>the only choice </li>
+<li>silent scream</li>
+<li>negative growth</li>
+</ul>
+<blockquote>
+<p>text 14</p>
+</blockquote>
+<h3 id="parallelism">Parallelism</h3>
+<p>the repetition of the same or similar srtucture</p>
+<p>英文中的“排比”比较宽泛，三个并列的名词短语之类也可以算作parallelism</p>
+<ul>
+<li>rhythm, balance, force of persuasion</li>
+</ul>
+<blockquote>
+<p>text 15, 16</p>
+</blockquote>
+<p>可以偷换by的用法</p>
+<ul>
+<li>wilson.......补充笔记</li>
+</ul>
+<h3 id="antithesis">Antithesis</h3>
+<p>Rhetorical contrast of ideas in parallel structures</p>
+<p>比中文中的对偶更宽泛；中文中必须青对绿，讲求和谐一致；英文中则有相反的感觉</p>
+<p>两个表达放在一起，各自独立，放在一起则互补或者对立</p>
+<ul>
+<li>All happy families are alike; each unhappy family is unhappy in its own way</li>
+<li>Many are called, but few are chosen</li>
+<li>Man proposes, God disposes.</li>
+<li>To err is human, to forgive divine</li>
+<li>Spicy food is heaven on the tongue but hell in the tummy</li>
+</ul>
+<blockquote>
+<p>text 17</p>
+</blockquote>
+<h1 id="lesson-7">Lesson 7 这讲的笔记需要重构</h1>
+<h2 id="phonological-features-of-style">Phonological features of style</h2>
+<ul>
+<li>English phonology</li>
+<li>phonemes vs. Supra-segmental features</li>
+<li>Sound effect: phonaesthesia and onomatopoeia</li>
+</ul>
+<h3 id="phonological-studies">Phonological studies 音系学</h3>
+<h4 id="phonemes-segments">Phonemes / Segments 音素=音段</h4>
+<ul>
+<li>22 Consonants - the airflow is blocked</li>
+<li>12 vowels -  the airflow is not blocked</li>
+<li>2 semi-vowels - the airflow can be blocked and can be not blocked /w/ /j/</li>
+<li>8 diphthongs - 第一个元音过渡到第二个 - 自然的长音</li>
+<li>Consonant clusters</li>
+</ul>
+<h4 id="supra-segmental-features-star">Supra-segmental features 超音段 :star:</h4>
+<p>多个单音素放在一起，产生更多的音</p>
+<ul>
+<li>Syllables</li>
+<li>Stress</li>
+<li>Tones and intonations</li>
+</ul>
+<h4 id="word-formation-possible-words-in-english">word formation: "possible words" in  English</h4>
+<ol>
+<li>pferd schflap, btkinspq - "a sense of foreigness"</li>
+<li>swurd, macket, salering</li>
+</ol>
+<h3 id="sound-effect-phonaesthesiaand-onomatopoeia">Sound effect: phonaesthesia（象征性）and onomatopoeia（模拟性）</h3>
+<h4 id="phonaesthesia">phonaesthesia</h4>
+<ul>
+<li>The Bouba vs. Kiki Effect - Bouba口腔松弛，kiki更多塞擦</li>
+<li>Synesthetic cross-modal abstraction - 通感/联觉</li>
+<li>"Kate" vs. "Paula" effect</li>
+</ul>
+<h5 id="phonaesthesia-vowels">phonaesthesia - vowels</h5>
+<ul>
+<li>open vs. close mouth</li>
+<li>splish</li>
+<li>splash - big</li>
+<li>
+<p>splosh - deep</p>
+</li>
+<li>
+<p>front vs. back </p>
+</li>
+<li>tittle, bit, thin, slit, silver</li>
+<li>gloom, boom, loom</li>
+</ul>
+<h5 id="phonaesthesia-consonants">phonaesthesia -consonants</h5>
+<ul>
+<li>/fl/ - the sudden movement</li>
+<li>flap flare fling flick flop</li>
+<li>/gl/ - light</li>
+<li>gleam glare glint glitter glisten</li>
+<li>/sl/ - smooth surface</li>
+<li>slippery slide slime slushy</li>
+<li>/-le/ /-er/ - repetation</li>
+<li>bubble twinkle ripple mutter twitter flutter</li>
+</ul>
+<h4 id="onomatopoeia-sound-imitation">onomatopoeia - sound imitation</h4>
+<p><strong>Universal phenomenon</strong></p>
+<p><strong>Cultural differences</strong></p>
+<p><strong>Vivid and impressive(nursery thymes.....)</strong></p>
+<ul>
+<li>Bang -</li>
+<li>Buzz - 嗡嗡</li>
+<li>Hiss - 嘶</li>
+<li>
+<p>Tick-tock - 滴答</p>
+</li>
+<li>
+<p>Boom</p>
+</li>
+</ul>
+<h5 id="_1">公鸡打鸣声</h5>
+<p>西方：k- koca -k</p>
+<p>东方：o-o-o</p>
+<h3 id="lost-in-translation">Lost in translation?</h3>
+<ul>
+<li>The bell went ding. 铃声叮~的响起了</li>
+<li>She cried "ouch" when she fell down the stairs. 他摔下楼梯，大喊“我去” “发”</li>
+<li>The fire crackled, keeping the house warm 火焰噼里啪啦</li>
+<li>The computer whirred as it processed the data 隆隆的 轰鸣声</li>
+<li>The piece simply clicked into place 咔哒</li>
+</ul>
+<h1 id="lesson-8">Lesson 8</h1>
+<h2 id="rhymes-and-rhyming-features">Rhymes and rhyming features</h2>
+<h3 id="supera-segmental-features">Supera-segmental features</h3>
+<h4 id="syllable-structures">syllable structures</h4>
+<ul>
+<li>Onset 韵首 - s</li>
+<li>Rhyme 韵腹 </li>
+<li>nucleus 韵核（元音）- i</li>
+<li>coda 韵尾 - ng</li>
+</ul>
+<h5 id="cvc-structure">CVC structure</h5>
+<ul>
+<li>dog = cvc</li>
+<li>limit = cvcvc</li>
+</ul>
+<h5 id="syllable-structures-in-chinese">Syllable structures in Chinese</h5>
+<p>Sun Yitian</p>
+<p>CVC CV CVC</p>
+<p>Cheng Zifan</p>
+<p>CVC CV CVC</p>
+<ul>
+<li>coda consonants in Chinese must have a 'n'</li>
+<li>中文的结构几乎固定，是==(C)V(n)==，这就是为什么中文一直分声母和韵母</li>
+</ul>
+<blockquote>
+<p>押韵的形式，就是在对应的音节的地方是相同的音。中文的音节只有两个结构，因此只有两种押韵</p>
+</blockquote>
+<ul>
+<li>
+<p>中文的押韵：</p>
+</li>
+<li>
+<p>双声：犹豫、慷慨、崎岖</p>
+</li>
+<li>叠韵：苗条、蜿蜒、蹉跎</li>
+</ul>
+<blockquote>
+<p>荡漾处多用叠韵，促节处多用双声     —— 王国维</p>
+</blockquote>
+<h5 id="syllable-structures-in-english">Syllable structures in English</h5>
+<ul>
+<li>Multi-syllabic</li>
+<li>think CVCC</li>
+<li>spring CCCVC</li>
+<li>sixths CVCCCC</li>
+<li>英语音节结构 ==(C)(C)(C)V(C)(C)(C)(C)== </li>
+<li>为了达到很好的押韵音响效果，将其简化成==CVC==，需要整个consonant cluster都押韵。如果一个辅音簇中只有一个押韵，就效果不好了</li>
+</ul>
+<h5 id="rhyming-words-and-lines">Rhyming words and lines</h5>
+<ul>
+<li>
+<p>used in poetry, drama, ads, speeches</p>
+</li>
+<li>
+<p>musical poetic emphatic cohesive effects</p>
+</li>
+</ul>
+<h4 id="rhymes-in-english">rhymes in English</h4>
+<ul>
+<li>Alliteration ==C==VC - great grow （中文中常见）</li>
+<li>Rhyme C==VC== - send mend（中文中常见）</li>
+<li>Assonance C==V==C - send bell / mom-and-pop shops</li>
+<li>Consonance CV==C== - sent hint</li>
+<li>Reverse rhyme ==CV==C - great graze（中文中常见）</li>
+<li>Pararhyme (para:环绕) ==C==V==C== - send sound</li>
+</ul>
+<p>Safe and sound</p>
+<ul>
+<li>感性：alliteration</li>
+<li>理性：还有consonance</li>
+</ul>
+<h5 id="other-types-of-rhymes">other types of rhymes</h5>
+<ul>
+<li>Semi-rhymes</li>
+<li>Imperfect rhymes</li>
+<li>Eye rhymes</li>
+<li>Masculine rhyme</li>
+<li>Feminin rhyme</li>
+<li>???</li>
+</ul>
+<p><img alt="image-20241225011009632" src="C:\Users\1\AppData\Roaming\Typora\typora-user-images\image-20241225011009632.png" /></p>
+<blockquote>
+<p>strange meeting </p>
+<p>by Wilfred Owen</p>
+<p>text 18</p>
+</blockquote>
+<h4 id="rhyming-schemepattern-in-english-poetry">Rhyming scheme/pattern in English poetry</h4>
+<blockquote>
+<p>text 19 &amp; 20</p>
+<p>text 21</p>
+<p>exercise: test 22 &amp; 23</p>
+</blockquote>
+<h1 id="lesson-9-metric-patterns-in-english-poetry">Lesson 9 - Metric patterns in English poetry</h1>
+<h3 id="_2"></h3>
+<h3 id="the-metric-of-english-poetry">The metric of English poetry</h3>
+<ul>
+<li>Poet: the pace and breathing of poetry</li>
+<li>Reader: focused attention &amp; feeling</li>
+<li>Syllables -&gt; Foot -&gt; Feet -&gt; Meter</li>
+</ul>
+<h3 id="stressed-and-unstressed-syllables">Stressed and unstressed syllables</h3>
+<p>Stressed: 横线</p>
+<p>Unstressed: 波浪线</p>
+<h3 id="poetic-metrics-foot">Poetic metrics: Foot音步</h3>
+<p>衡量英语诗行长度的单位（几个音部作为一行）</p>
+<ul>
+<li>
+<p>The recurring unit of rhythm</p>
+</li>
+<li>
+<p>音步由一系列<strong><em>音节</em></strong>组成（不是单词）</p>
+</li>
+<li>at least one stressed syllable</li>
+</ul>
+<h4 id="poetic-foot-types">Poetic foot types</h4>
+<ul>
+<li>:wavy_dash:—  iamb (iambic foot) </li>
+<li>—:wavy_dash:  trochee (trochaic foot)  - Nursery Rhyme, Marching, a feeling of Assertion</li>
+<li>:wavy_dash::wavy_dash:—  anapest (anapestic foot)  - A feeling of Emotional tension, Horse galloping</li>
+<li>—:wavy_dash::wavy_dash:  dactyl (dactylic foot)  - A feeling of decline, lost</li>
+</ul>
+<h3 id="and-meter">and meter格律</h3>
+<ul>
+<li>An sequence of the recurring foot in a line</li>
+<li>the regular / <em>predominant</em> pattern - 不一定那么齐整</li>
+</ul>
+<blockquote>
+<p>A mile to go before I sleep</p>
+<p>四音步抑扬格</p>
+</blockquote>
+<h4 id="meter-types-number-of-feet-in-a-line">#### Meter types (number of feet in a line)</h4>
+<ul>
+<li>monometer</li>
+<li>dimeter</li>
+<li>trimeter</li>
+<li><strong>tetrameter</strong></li>
+<li><strong>pentameter</strong></li>
+<li><strong>hexameter</strong></li>
+<li>heptameter</li>
+<li>octameter</li>
+</ul>
+<p>### blank verse\</p>
+<p>Standing in a Lecture Hall on a Snowy Evening</p>
+<p>by the headmaster who hired Robert Frost</p>
+<p>Who lectured here I'm sure I know</p>
+<p>He's somewhere in the forest though</p>
+<p>He will not see me laughing here</p>
+<p>Through frost and chill, he haste to show</p>
+<p>He's silly and a little queer</p>
+<p>To teach in college here and there</p>
+<p>Though chilling wind cut his bones ache</p>
+<p>Paid little but he still comes here</p>
+<p>His father's death makes his heart break</p>
+<p>His wife's in bed, worn out and weak</p>
+<p>Throughout his life, pain piles, grief heap</p>
+<p>Yet still he comes, for students' sake.</p>
+<p>Oh, Frost has toiled through snow so deep</p>
+<p>While wealth and wine the head shall reap</p>
+<p>And feast to eat before I sleep</p>
+<p>And feast to eat before I sleep</p>
+<h1 id="lesson-12">Lesson 12</h1>
+<h2 id="syntactic-features">Syntactic features</h2>
+<ul>
+<li>syntax: The patterns, principles,and rules of sentences in a given language.</li>
+<li>Question: how to describe and categorize different sentences?</li>
+</ul>
+<h3 id="syntax-types">Syntax types</h3>
+<ul>
+<li>structure</li>
+<li>voice</li>
+<li>function</li>
+<li>length</li>
+</ul>
+<h3 id="structure">Structure</h3>
+<ul>
+<li>Simple sentences</li>
+<li>Complex sentences - involves 2 or more sentax</li>
+<li>Compound sentences - and but or...</li>
+<li>Compound complex sentences</li>
+</ul>
+<h3 id="active-vs-passive-voices">Active vs. passive voices</h3>
+<ul>
+<li>rearrange of the sentence to achieve coherence / to emphasize the first world</li>
+</ul>
+<blockquote>
+<p>Amarica was found ... </p>
+</blockquote>
+<ul>
+<li>we do not need to mention the people who do it - be evasive with passive voice</li>
+</ul>
+<blockquote>
+<p>mistakes are made ...</p>
+</blockquote>
+<ul>
+<li>passive voice in academic writing - sound more objective, and avoid mentioning any relation to human</li>
+</ul>
+<blockquote>
+<p>The researcher designed a questionnaire of 25 questions...</p>
+<p>The questionnaire, consisting of 25 questions, was designed...</p>
+<p>The machine reads... 貌似是主动，其实被动内核，更加忽略人的因素</p>
+</blockquote>
+<h3 id="sentence-types-functions">Sentence Types - functions</h3>
+<p>The four types of sentence</p>
+<ol>
+<li>declarative - statement</li>
+<li>interrogative - question</li>
+<li>imperative - command</li>
+<li>exclamative - exclamation</li>
+</ol>
+<h3 id="sentence-length">Sentence length</h3>
+<ul>
+<li>length by words, syllables or characters</li>
+<li>15-20 words or 22-33 syllables -&gt; 长句</li>
+<li>all short sounds stupid, monotonous, all long sounds stuffy.</li>
+</ul>
+<h4 id="_3">指标</h4>
+<ul>
+<li>sentence sentence lengths and readability</li>
+<li>sentence lengths in discourse analysis</li>
+<li>historical development</li>
+</ul>
+<h4 id="stylistic-effect-of-short-vs-long-sentences">Stylistic effect of short vs. long sentences</h4>
+<p>short</p>
+<ul>
+<li>Direct,s concise, terse, clear</li>
+<li>swift, compact, continuous</li>
+<li>abrupt, unexpected</li>
+</ul>
+<p>long</p>
+<ul>
+<li>solemn, formal, detailed</li>
+<li>
+<p>complex, sophisticated</p>
+</li>
+<li>
+<p>messy, confusing, suffocating</p>
+</li>
+</ul>
+<blockquote>
+<p>text 24 </p>
+<p>Long and loose sentence, perfectly for delivering stream of consciousness, illogical, not rational</p>
+<p>text 25. 26</p>
+</blockquote>
+<h1 id="lesson-13">Lesson 13</h1>
+<ul>
+<li>syntactic deviation ( . &amp; . ？)</li>
+<li>measurement of text readability</li>
+</ul>
+<h3 id="revisit-stylistic-features">Revisit "stylistic features"</h3>
+<ul>
+<li>
+<p>钱媛: ...recur or prevail in a text</p>
+</li>
+<li>
+<p>frequency, repetition and parallelism</p>
+</li>
+<li>a quantitative pattern -&gt; 今天来看另一半</li>
+</ul>
+<h3 id="norms-and-deviations">Norms and deviations</h3>
+<ul>
+<li>Norm - the regular pattern, the convention</li>
+<li>Deviation - violation of the convention, the odd one</li>
+</ul>
+<h3 id="syntactic-features-the-regular-patterns">Syntactic features: the regular patterns</h3>
+<ul>
+<li>Sentences of different lengths, structures, voices, functions</li>
+</ul>
+<h3 id="syntactic-features-deviations-irregularity">Syntactic features: Deviations &amp; Irregularity</h3>
+<ul>
+<li>
+<p><strong><em>Elliptical</em></strong> sentences and <strong><em>Inverted</em></strong> sentences</p>
+</li>
+<li>
+<p><strong><em>Rhetorical questions</em></strong> (Text 27, 反问句)</p>
+</li>
+<li>
+<p><strong><em>Loose sentences</em></strong> vs. <strong><em>periodic sentences</em></strong>  圆周句和松散句</p>
+</li>
+<li>
+<p>left-branching</p>
+</li>
+<li>
+<p>right-branching</p>
+<ul>
+<li><strong><em>loose structure</em></strong></li>
+<li>supplementary, easy, natural</li>
+</ul>
+</li>
+<li>
+<p>left-branching and nesting</p>
+<ul>
+<li>
+<p><strong><em>periodic structure</em></strong></p>
+</li>
+<li>
+<p>anticipatory, suspension-making - <em>anticlimax</em></p>
+</li>
+<li>
+<p>evasive and sophisticated</p>
+</li>
+</ul>
+<blockquote>
+<p>e.g. 雅思作文</p>
+<p>having considered both sides of the argument, I have come to the conclusion that... 论说文常用手段</p>
+<p><strong><em>evasive and sophisiticated</em></strong></p>
+<p>e.g. Pride and prejudice</p>
+<p><strong><em>anticlimax</em></strong></p>
+<p>e.g. text 28</p>
+</blockquote>
+</li>
+<li>
+<p>middle branching = nesting</p>
+</li>
+<li>
+<p>Non-standard forms</p>
+</li>
+</ul>
+<h3 id="stylistic-features-in-use-text-readability">Stylistic features in use: Text readability</h3>
+<h4 id="def">Def</h4>
+<p>readability is the case with which a <strong><em>reader</em></strong> can understand a written text.</p>
+<p>In natural language, the readability of text depends on its content (vocabulary and syntax) and presentation (like font size, line height, and line length).</p>
+<h4 id="the-flesch-formula-">the Flesch formula  - 偏向于口语</h4>
+<p>可读性研究？</p>
+<p>Donald Trump talks like a 4th grader</p>
+<p><strong>Flesch-Kincaid test</strong></p>
+<ul>
+<li>
+<p>reading ease score = 1.599nosw - 1.015sl - 31.517</p>
+</li>
+<li>
+<p>nosw: 词长</p>
+</li>
+<li>
+<p>sl: 句长</p>
+</li>
+</ul>
+<p>level 4 means, by def, 能够被四年级孩子理解，而不是他像四年级小孩一样说话。</p>
+<p>it's readability, always in the perspective of <strong><em>reader</em></strong></p>
+<h4 id="the-gunning-fog-index-">the Gunning fog index - 偏向于书面语</h4>
+<p>http://gunning-fog-index.com/</p>
+<h4 id="the-lexile-index-">the Lexile index - 蓝思指数</h4>
+<p>Lexile Analyzer</p>
+<p>evaluate reading demand,</p>
+<p>analyse </p>
+<h1 id="lesson-15">Lesson 15</h1>
+<h2 id="semantics">Semantics</h2>
+<ul>
+<li>word's meaning</li>
+<li>relations between words and words</li>
+<li>sentence's meaning</li>
+</ul>
+<h3 id="word-meanings">word meanings</h3>
+<p>Denotative meaning vs connotative meaning 哲学和逻辑学</p>
+<p>conceptual meaning vs associative meaning 概念和联想</p>
+<h2 id="semantic-relations">Semantic relations</h2>
+<ul>
+<li>Synonymy</li>
+<li>antonymy</li>
+<li>Metonymy</li>
+<li>collocation 搭配关系 (frequent concurrence)</li>
+<li>hyponymy 上下义关系 (general -&gt; specific)</li>
+</ul>
+<p>-&gt; lexical chains: 词汇由语义关系而连接而成的线条</p>
+<h3 id="meaning-of-text-cohesion-and-coherence">MEaning of text: cohesion and coherence (文章的意思并不简单的事意思的加总)</h3>
+<ul>
+<li>coherence - meaning, appropriateness 连贯</li>
+<li>cohesion - form, connectedness 衔接</li>
+<li>using grammatical devices 语法连接<ul>
+<li>conjunction</li>
+<li>ellipsis</li>
+<li>substitution</li>
+<li>reference</li>
+</ul>
+</li>
+<li>using semantic relations 语义连接</li>
+</ul>
+<h3 id="lexical-chains">Lexical chains</h3>
+<h3 id="semantic-field">Semantic field 语义场</h3>
+<blockquote>
+<p>help to build the unity and coherence </p>
+</blockquote>
+<p>通过语义场慢慢的把school和island连接起来，而不能一下子跳过去</p>
+<p>school - school bus - yellow - banana - island</p>
+<h3 id="styles-of-non-standard-varieties">Styles of non-standard varieties</h3>
+<ul>
+<li>sounds and spelling</li>
+<li>choices of words</li>
+<li>sentence or discourse structures</li>
+</ul>
+<h1 id="words-bank">Words bank</h1>
+<p>Literary, imaginative, rhetorical, vivid</p>
+<p>Scientific, academic, logical </p>
+<p>Determined/urgent, compassionate </p>
+<p>Realistic, intense, precise, engaging </p>
+<p>short, assertive sentences</p>
+<p>contradictory incongruous words</p>
+<p><em>超长句，</em><em>messy，chaotic， heavily embeded sentence， irrational， absurdity 荒谬感（黑色幽默）</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.88dd0f4e.min.js"></script>
+      
+    
+  </body>
+</html>
