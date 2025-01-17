@@ -2,6 +2,7 @@ site_name: ZJU SIS resource sharing
 
 theme:
   name: material
+  favicon: img/favicon.png
 
 nav: 
 - 主页: index.md
