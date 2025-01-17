@@ -1,5 +1,6 @@
 # 英语文体学
-# Lesson 1
+
+## Lesson 1
 
 > Scheme
 >
@@ -75,7 +76,7 @@ What are we talking about when we talk about style?
 
 
 
-# Lesson 2
+## Lesson 2
 
 > scheme
 >
@@ -172,7 +173,7 @@ topic and genre determine styles - **real estate advertisements** have many abbr
 
 
 
-# Lesson 3
+## Lesson 3
 
 ### Summary: key issues in stylistics
 
@@ -214,7 +215,7 @@ topic and genre determine styles - **real estate advertisements** have many abbr
 
 
 
-# Lesson 4
+## Lesson 4
 
 ### word types
 
@@ -267,7 +268,7 @@ abstract and academic
 
 
 
-# Lesson 5
+## Lesson 5
 
 
 
@@ -328,9 +329,9 @@ look into -> investigate
 
 
 
-# Lesson 6
+## Lesson 6
 
-## Rhetorical devices
+### Rhetorical devices
 
 - A linguistic tool that employs a particular type of ==sentence structure==, ==sound==, or ==pattern of meaning== in order to evoke a particular reaction from an audience
 
@@ -465,9 +466,9 @@ Rhetorical contrast of ideas in parallel structures
 
 
 
-# Lesson 7 这讲的笔记需要重构
+## Lesson 7 这讲的笔记需要重构
 
-## Phonological features of style
+### Phonological features of style
 
 - English phonology
 - phonemes vs. Supra-segmental features
@@ -562,9 +563,9 @@ Rhetorical contrast of ideas in parallel structures
 
 
 
-# Lesson 8
+## Lesson 8
 
-## Rhymes and rhyming features
+### Rhymes and rhyming features
 
 ### Supera-segmental features
 
@@ -660,7 +661,7 @@ Safe and sound
 
 
 
-# Lesson 9 - Metric patterns in English poetry
+## Lesson 9 - Metric patterns in English poetry
 
 ### 
 
@@ -768,9 +769,9 @@ And feast to eat before I sleep
 
 
 
-# Lesson 12
+## Lesson 12
 
-## Syntactic features
+### Syntactic features
 
 - syntax: The patterns, principles,and rules of sentences in a given language.
 - Question: how to describe and categorize different sentences?
@@ -853,7 +854,7 @@ long
 
 
 
-# Lesson 13
+## Lesson 13
 
 - syntactic deviation ( . & . ？)
 - measurement of text readability
@@ -959,9 +960,9 @@ analyse
 
 
 
-# Lesson 15
+## Lesson 15
 
-## Semantics
+### Semantics
 
 - word's meaning
 - relations between words and words
@@ -973,7 +974,7 @@ Denotative meaning vs connotative meaning 哲学和逻辑学
 
 conceptual meaning vs associative meaning 概念和联想
 
-## Semantic relations
+### Semantic relations
 
 - Synonymy
 - antonymy
@@ -1014,7 +1015,7 @@ school - school bus - yellow - banana - island
 
 
 
-# Words bank
+## Words bank
 
 Literary, imaginative, rhetorical, vivid
 
